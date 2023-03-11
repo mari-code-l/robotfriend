@@ -2,6 +2,10 @@ body{
     background-color: black;
 }
 
+.robot{
+    margin-top: 100px;
+}
+
 .head,
 .torso,
 .leftarm,
@@ -46,7 +50,7 @@ body{
 }
 
 .leftarm:hover{
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
 }
 
 .rightarm{
@@ -82,7 +86,7 @@ body{
 }
 
 .leftleg:hover{
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
 }
 
 .rightleg{
